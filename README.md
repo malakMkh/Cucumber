@@ -72,7 +72,7 @@ public class LoginSteps {
         System.out.println("Redirection vers la page d'accueil");
     }
 }
-
+````
 ##🏗️ Exécution des Tests
 ``` JUnit
 Créer une classe de test runner avec JUnit :
@@ -85,10 +85,11 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "src/test/resources/features", glue = "stepDefinitions")
 public class TestRunner {
 }
+````
 Exécutez avec Maven :
 ``` Maven
 mvn test
-
+````
 ## 🎯 Avantages de Cucumber
 ✅ Lisible par les non-développeurs ✅ Facilite la collaboration entre équipes ✅ Tests réutilisables et modulables
 Cucumber simplifie l'automatisation des tests et améliore la communication entre les équipes .
